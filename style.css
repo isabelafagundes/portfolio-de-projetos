@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tourney&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crushed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+/* Cabeçalho */
+main {
+    font-family: 'Inconsolata', 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header {
+    background: #120e13;
+    padding: 20px;
+    color: white;
+    border-bottom: 3px solid #b33e46;
+}
+
+.cabecalho {
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+}
+
+.titulo-principal {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 0 0 0 15px;
+    font-family: 'Libre Barcode 128 Text', sans-serif;
+}
+
+nav {
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+nav ul {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+nav li {
+    display: inline;
+    /* text-transform: uppercase; */
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 0 0 15px;
+    font-family: 'Inconsolata', sans-serif;
+    cursor: pointer;
+}
+
+nav a{
+    text-decoration: none;
+    color: inherit;
+}
+
+nav li:hover{
+    color: #ce9696;
+}
+
+/* Estilização de todos os títulos */
+.title{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #FFFFFF;
+}
+
+/* Sobre mim */
+.sobre-mim{
+    background: #1d161e;
+    font-size: 20px;
+    padding: 30px;
+}
+
+
+.img-texto {
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    margin: 0 auto;
+    vertical-align: top;
+}
+
+.hello-name{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}
+
+.hello-name strong{
+    color: #ce9696;
+}
+
+.img-texto p {
+    text-align: justify;
+    padding: 0 30px;
+}
+
+
+.home-img{
+    width: 30%;
+    padding: 0 20px;
+}
+
+.button-div {
+    margin: 0 auto;
+    text-align: center;
+    border-top: none;
+    padding: 30px 0;
+}
+
+.button-div button{
+    width: 40%;
+    height: 40px;
+    border: 4px solid white;
+    border-radius: 8px;
+    font-weight: bold;
+    background: #1d161e;
+    font-size: 20px;
+    color: white;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.button-div button:hover{
+    border: 4px solid #ce9696;
+    color: #ce9696;
+    transform: scale(1.05);
+}
+
+/* Habilidades */
+
+.habilidades{
+    background: #120e13;
+    padding: 30px;
+    align-items: center;
+}
+
+.habilidades ul {
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+
+.habilidades li {
+    display: inline-block;
+}
+
+.habilidades p {
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tecnologias i {
+    color: #b33e46;
+    font-size: 100px;
+    margin: 0 20px;
+}
+
+.habilidades i:hover{
+    font-size: 105px;
+    color: #ce9696;
+}
+
+.soft-skills{
+    margin: 20px 0;
+}
+
+.soft-skills i{
+    color: #b33e46;
+    font-size: 100px;
+    margin: 0 20px;
+}
+
+/* Projetos */
+
+.projetos {
+    background: #1d161e;
+    padding: 20px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+.projetos li {
+    display: inline-block;
+    text-align: center;
+    margin: 10px auto;
+    vertical-align: top;
+    width: 380px;
+    padding: 20px;
+}
+
+.projetos img{
+    width: 380px;
+    border: 4px solid white;
+    padding: 2px;
+    margin: 3px 0;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.nome-projeto {
+    font-size: 25px;
+    margin: 10px 0;
+    font-family: 'Bebas neue', sans-serif;
+    font-weight: normal;
+}
+
+.sobre-projeto {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+
+.repositorio-btn {
+    border: none;
+    background: #b33e46;
+    border-radius: 15px;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    margin: 5px 0;
+    font-weight: bold;
+    font-family: 'Inconsolata', sans-serif;
+    transition: 1s all;
+    cursor: pointer;
+
+}
+
+.projetos img:hover{
+    border: 4px solid #c95a5a;
+}
+
+.itens img:hover{
+    box-shadow: 0 3px 10px #FFFFFF;
+    transform: scale(1.05);
+}
+
+.repositorio-btn:hover {
+    background: #ce9696;
+    transform: scale(1.1);
+}
+
+/* Contatos */
+
+.contatos {
+    background: #000000;
+    padding: 30px;
+}
+
+h5 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.contatos ul{
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.contatos li {
+    display: inline;
+    text-decoration: none;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.contatos a {
+    font-size: 70px;
+    color: white;
+    text-decoration: none;
+}
+
+.contatos p {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.contatos i:hover{
+    color: #ce9696;
+}
+
+/* Responsividade */
+@media only screen and (max-width:980px){
+
+    main img {
+        width: auto;
+    }
+
+    .cabecalho{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    nav {
+        position: relative;
+        padding: 30px;
+    }
+
+    nav li {
+        font-size: 30px;
+    }
+
+    .sobre-mim p {
+        padding: 0 10px;
+    }
+
+    .img-texto {
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
+
+    .home-img {
+        display: none;
+    }
+
+    .hello-name p {
+        text-align: center;
+    }
+
+    .sobre-mim button{
+        width: 50%;
+    }
+
+    .hello-name strong{
+        text-align: center;
+    }
+
+    .habilidades {
+        width: auto;
+    }
+
+    .projetos ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}

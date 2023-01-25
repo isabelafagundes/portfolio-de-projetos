@@ -44,7 +44,6 @@ nav ul {
 
 nav li {
     display: inline;
-    /* text-transform: uppercase; */
     font-weight: bold;
     font-size: 18px;
     margin: 0 0 0 15px;
@@ -161,6 +160,10 @@ nav li:hover{
     color: #b33e46;
     font-size: 100px;
     margin: 0 20px;
+}
+
+.habilidades i {
+    transition: 1s all;
 }
 
 .habilidades i:hover{
